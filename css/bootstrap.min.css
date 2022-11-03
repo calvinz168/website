@@ -10206,6 +10206,29 @@ input[type="button"].fcf-btn-block {
     src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
 
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .topnav {
+        visibility: visible;
+    }
+    .nav-bruh {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .topnav {
+        visibility: hidden;
+        
+    }
+    .nav-bruh {
+        visibility: visible;
+    }
+}
 
 html {
     overflow: scroll;
