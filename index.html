@@ -14,54 +14,176 @@
 
 <body>
 	<!-- nav bar -->
-	<nav class="navbar navbar-dark bg-dark">
+	<nav class="navbar navbar-light" style="padding-top: 4%;">
 		<a class="navbar-brand" href="index.html" style="padding-left: 8%">
-			<h2>Calvin Zheng</h2>
+			<h4>Calvin Zheng</h4>
 		</a>
-		<!-- maybe use svg logo instead of name -->
 
 		<div class="navbar-nav">
-
 			<div class="d-flex justify-content-end">
 				<a class="nav-item nav-link active" href="index.html" style="padding-right: 10%;">
-					<h2>Home</h2><span class="sr-only">(current)</span>
+					<h4>Home</h4><span class="sr-only">(current)</span>
 				</a>
-				<a class="nav-item nav-link" href="projects.html" style="padding-right: 10%;">
-					<h2>Projects</h2>
+				<a class="nav-item nav-link" href="about.html" style="padding-right: 10%;">
+					<h4>About</h4>
 				</a>
 				<a class="nav-item nav-link" href="contact.html" style="padding-right: 10%">
-					<h2>Contact</h2>
+					<h4>Contact</h4>
+				</a>
+				<a class="nav-item nav-link" href="assets\Calvin_Zheng_Resume.pdf" target="_blank"
+					style="padding-right: 25%">
+					<h4>Resume</h4>
 				</a>
 			</div>
 		</div>
 	</nav>
 
-	<!-- main content -->
-	<div class="container" style="padding-top: 3%;">
+	<!-- intro -->
+	<div class="container" style="padding-top: 0%;">
 		<div class="row justify-content-md-center">
 			<div class="col col-lg-5">
-				<img src="images\calvin.jpg" class="img-fluid" alt="Responsive image" style="max-width: 80%; padding-left: 5%;">
-			</div>
-			<div class="col col-lg-5">
 				<div class="container">
-					<h1 class="align-self-center" style="padding-top: 15%;">Hi I'm Calvin.</h1>
-					<h3>I'm a software developer and computer science student :)</h3>
+					<h1 class="align-self-center" style="padding-top: 15%; text-align: center;"><b>Hey, I'm Calvin!</b>
+					</h1>
+					<h4 style="text-align: center;">I'm a software developer and computer science student :)</h4>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container justify-content-md-center" style="padding-top: 3%; width: 65%;">
-		<p>Currently a computer science student at Queen's University with an interest
-			in ML/AI, blockchain, business, and video games. Worked in some pretty interesting places such as Halton Environmental
-			Network, RBC, and TD Bank, and built some pretty cool software along the way. Always looking to learn more
-			and connect with new people so <a class="page-link-bruh" href="contact.html">reach out</a> if you'd like to
-			talk about programming, school, or anything in general!
+	<div class="container justify-content-md-center" style="padding-top: 1%; width: 55%;">
+		<p style="font-size:large;">Currently a computer science student at Queen's University with an interest
+			in ML/AI, blockchain, business, and finance. Love competing in hackathons and business competitions and
+			always looking to build cool stuff!
 		</p>
-		<p>Check out my <a class="page-link-bruh" href="assets\Calvin_Zheng_Resume.pdf">resume</a> or some of my <a
-				class="page-link-bruh" href="projects.html">coding projects!</a></p>
 	</div>
 
-	<nav class="navbar fixed-bottom navbar-light bg-dark"></nav>
+	<!-- projects -->
+	<div class="container" style=" width: 75%; position: relative; padding-top: 5%;">
+		<div class="row">
+			<div class="col-md">
+				<div class="container project project1">
+					<a href="#">
+						<img src="assets\text_gen.png" class="img-fluid" alt="Responsive image"
+							style="width: auto; border-radius: 12px;">
+					</a>
+					<a href="https://github.com/calvinz168/Text-generator" target="_blank">
+						<div class="overlay1">
+							<div class="project-description">
+								<h2>AI Text Generator</h2>
+								<br>
+								<p style="text-align: left; font-size: medium;">A machine learning text generator built
+									for
+									Oakhacks using python on Jupyter Notebook, which works by slicing text into 'seeds',
+									calculating
+									the probability that a character follows another character, and generates text based
+									off
+									of this
+									probability.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="container project project2">
+					<a href="#">
+						<img src="assets\bot.png" class="img-fluid" alt="Responsive image"
+							style="width: 100%; border-radius: 12px;">
+					</a>
+					<a href="https://github.com/calvinz168/pnuts-Discord-Bot" target="_blank">
+						<div class="overlay2">
+							<div class="project-description">
+								<h2>pnuts Discord Bot</h2>
+								<br>
+								<p style="text-align: left; font-size: medium;">Discord bot created for personal use,
+									and
+									is
+									capable of many utilities and actions such as: telling you the weather or time,
+									mentioning
+									certain members, basic arithmetic, retrieving random photos, and much more.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row" style="padding-top: 5%;">
+			<div class="col-md">
+				<div class="container project project3">
+					<a href="#">
+						<img src="assets\smART.png" class="img-fluid" alt="Responsive image"
+							style="width: 100%; border-radius: 12px;">
+					</a>
+					<a href="https://github.com/calvinz168/smART" target="_blank">
+						<div class="overlay3">
+							<div class="project-description">
+								<h2>smART</h2>
+								<br>
+								<p style="text-align: left; font-size: medium;">A simple virtual assistant created in
+									python as
+									a
+									small side project. Similar to the pnuts discord bot, the assistant has multiple
+									utilities
+									such
+									as: telling you the weather or time, responding to specific commands, and Google
+									searching
+									for
+									given prompts.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="container project project4">
+					<a href="#">
+						<img src="assets\floppa.jpg" class="img-fluid" alt="Responsive image"
+							style="width: 100%; border-radius: 12px;">
+					</a>
+					<a href="https://github.com/calvinz168/Floppa-Finance" target="_blank">
+						<div class="overlay4">
+							<div class="project-description">
+								<h2>Floppa Finance</h2>
+								<br>
+								<p style="text-align: left; font-size: medium;">A project developed for the TU20 Cup
+									Competition; Floppa Finance is a web-based application designed to help educate
+									youth about
+									finance. Floppa Finance utilizes a Python backend with a HTML/CSS frontend and uses
+									the Flask
+									package to integrate them.</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- bottom nav -->
+
+
+	<br>
+	<hr style="width: 75%;">
+	<br>
+
+	<ul class="nav justify-content-center" style="padding-bottom: 5%;">
+		<li class="nav-item" style="padding-right: 2%;">
+			<a href="mailto: calvinz168@gmail.com" target="_blank"><img src="assets\mail.svg"
+					style="width: 100%; padding: 5%;"></a>
+		</li>
+		<li class="nav-item" style="padding-right: 2%;">
+			<a href="https://www.linkedin.com/in/zheng-calvin/" target="_blank"><img src="assets\linkedin.svg"
+					style="width: 100%;"></a>
+		</li>
+		<li class="nav-item" style="padding-right: 2%;">
+			<a href="https://github.com/calvinz168" target="_blank"><img src="assets\github.svg"
+					style="width: 100%;"></a>
+		</li>
+		<li class="nav-item">
+			<a href="https://www.instagram.com/calv.zheng/" target="_blank"><img src="assets\instagram.svg"
+					style="width: 100%;"></a>
+		</li>
+	</ul>
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
